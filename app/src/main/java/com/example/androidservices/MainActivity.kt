@@ -47,6 +47,9 @@ class MainActivity : AppCompatActivity() {
         binding.btnStartForegroundService.onClick {
             sendCommandToForegroundService(TimerState.START)
         }
+        binding.btnStopForegroundService.onClick {
+            sendCommandToForegroundService(TimerState.STOP)
+        }
     }
 
     private fun updateUi(elapsedTime: Int) {
