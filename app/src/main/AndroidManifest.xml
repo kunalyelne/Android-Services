@@ -22,7 +22,7 @@
         </activity>
 
         <service
-            android:name=".TimerService"
+            android:name=".services.TimerService"
             android:enabled="true"
             android:exported="false"/>
 
